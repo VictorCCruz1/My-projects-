@@ -1,5 +1,5 @@
 text0 = str(input('Type the text to be analyzed:'))
 text1 = (text0.upper()).strip()
-print('{}'.format(text1.count('A')))
-print('{}'.format(text1.find('A')+1))
-print('{}'.format(text1.rfind('A')+1))
+print('O texto possui {} letras a.'.format(text1.count('A')))
+print('O primeiro está na posição {}.'.format(text1.find('A')+1))
+print('O último está na posição {}.'.format(text1.rfind('A')+1))

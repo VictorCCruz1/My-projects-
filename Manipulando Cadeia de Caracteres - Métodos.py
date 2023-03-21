@@ -19,3 +19,6 @@ frase.lstrip()  # método strup pela esquerda, so no início da string
 frase.split()  # cada espaço vazio na cadeia de caracteres é removido
 # criando uma lista com todas as palavras separadas.
 print('-'.join(frase))  # pega as palavras splitadas e junta-as com '-'
+format((a)[2:]) ('''singifica que vai do 3° 
+# caracter até o último da string da 
+# variável a.''')

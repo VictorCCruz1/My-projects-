@@ -11,3 +11,5 @@ for i in range (len(palavra) -1, -1, -1):
         mensagem = (f'Não temos um palíndrome, a palavra é {palavra} e o inverso é {inverso}!')
 
 print(mensagem)
+
+'''inverso= palvra[::-1]   funcionaria do mesmo jeito'''

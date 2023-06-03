@@ -1,0 +1,17 @@
+termos = 0
+while termos < 1:
+    termos = int(input('Quantos termos: '))
+    t0 = 0
+    t1 = 1
+    t2 = 0
+    if termos >= 1:
+        print (f'{t0}', end='')
+    if termos >= 2:
+        print (f' - {t1}', end='')
+    if termos >= 3:
+        while (termos - 2) > 0:
+             t2 = t1 + t0
+             print(f' - {t2}', end='')
+             t0 = t1
+             t1 = t2
+             termos -= 1

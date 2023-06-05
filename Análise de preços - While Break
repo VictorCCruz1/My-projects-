@@ -1,0 +1,18 @@
+soma = caro = preço = valor = contador = 0
+r = 'S'
+while True:
+    nome = input('Nome do produto: ')
+    preço = int(input('Qual preço: '))
+    soma += preço
+    if preço > 1000:
+        caro+= 1
+    if contador == 0 or valor > preço:
+        produto = nome
+        valor = preço
+    contador +=1
+    r = input('Quer continuar [S ou N]: ')
+    if r in 'Nn':
+        break
+print(f'O total da compra foi R${soma:.2f}')
+print(f'Temos {caro} produto custando mais de R$1000,00')
+print(f'O produto mais barato foi {produto}, custando R${valor:.2f}.')

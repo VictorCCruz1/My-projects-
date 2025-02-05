@@ -1,2 +1,2 @@
-# My-projects-
-Python study files.
+# Meus-projetos-Python
+Arquivos de estudos em Python.

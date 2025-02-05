@@ -1,2 +1,2 @@
 # My-projects-
-Study files.
+Python study files.
